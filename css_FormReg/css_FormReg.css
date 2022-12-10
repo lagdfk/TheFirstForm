@@ -1,0 +1,53 @@
+.h1_style {
+	font-size: 3em;
+	color: #4b384b;
+/*	font-family: Arial;*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	background: #f8a9ae;
+	margin-left: 5%;
+	width: 90%;
+}
+
+.accept_bottom {
+	background-color: #847087;
+	font-weight: 500;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #fff;
+	border-radius: 5px;
+	border-color: #847087;
+}
+
+.cancel_bottom {
+	background-color: #b17c90;
+	font-weight: 500;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #fff;
+	border-radius: 5px;
+	border-color: #b17c90;
+}
+
+.p_style {
+	font-size: 1em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-left: 10%;
+	width: 80%;
+	line-height: 1.3;
+	text-align:justify;
+}
+
+.p_style2 {
+	font-size: 1em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-left: 10%;
+	width: 30%;
+/*	line-height: 1.3;*/
+	text-align:justify;
+}
+
+.the_first_word {
+	color: #cc3444;
+	font-weight: bold;
+}
