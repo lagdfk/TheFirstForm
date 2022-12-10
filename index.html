@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css_FormReg/css_FormReg.css">
+	<title>Регистрационная форма</title>
+</head>
+<body>
+	<h1 class="h1_style">Регистрация</h1>
+	<p class = "p_style"> <span class = "the_first_word">Друзья!</span> Многим мешает, а некоторых даже пугает заполнение своих персональных данных для дальнейшего полноценного использования всех возможностей нашего сайта. Но опасаться не стоит, мы лишь хотим, чтобы к нам не пробрались злоумышленники и боты и оберегаем вашу персональную работу на этом интернет портале.
+	</p>
+
+	<form method="get" name="my_form">
+		<p class = "p_style">Имя:
+			<input type="text" name="_first_name_person" placeholder="Имя..." required>
+		</p>
+		<p class = "p_style">Фамилия:
+			<input type="text" name="_second_name_person" placeholder="Фамилия...">
+		</p>
+		<p class = "p_style">Отчество:
+			<input type="text" name="_second_name_person" placeholder="Отчество...">
+		</p>
+
+		<!-- выбираем пол -->
+		<fieldset class = "p_style2">
+			<legend>Пол:</legend>
+			<input type="radio" name=sexx value=man id=_MM>
+				<label for=_MM>Мужчина&nbsp;&nbsp;&nbsp;</label>
+				
+			<input type="radio" name=sexx value=man id=_WW>
+				<label for=_WW>Женщина</label>
+		</fieldset>
+		<br>
+		<label for=coutntry_choice class = "p_style">
+			Страна моего проживания...</label>
+		<select name=country required id=coutntry_choice>
+			<option value=''>-- Выберите страну --</option>
+			<option value='by'>Беларусь</option>
+			<option value='kz'>Казахстан</option>
+			<option value='ru'>Россия</option>
+		</select>
+
+		<p class = "p_style">Задайте пароль:
+			<input type="password" name="_second_name_person">
+		</p>
+		<p class = "p_style">Телефон:
+			<input type="tel" name="_second_name_person">
+		</p>
+		<p class = "p_style">E-mail &#64; :
+			<input type="email" name="_second_name_person">
+		</p>
+
+
+
+		<p class = "p_style">
+			<input type="submit" value="Отправить" class="accept_bottom">
+   			<input type="reset" value="Очистить" class="cancel_bottom">
+   		</p>
+	</form>
+	
+
+</body>
+</html>
